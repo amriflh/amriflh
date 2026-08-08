@@ -9,7 +9,7 @@
 Strategi Konten & Technical SEO Terukur Menuju Puncak Trafik & Konversi 🏔️📈
 ```
 
-📍 **Jakarta**  
+📍 **Jakarta, Indonesia 🇮🇩 | S1 Ilmu Komunikasi Mercu Buana**  
 ⛰️ **Current Goal:** Meraih #1 Google Maps & Menghasilkan Konversi Organik Nyata ⛰️📈
 
 </div>
