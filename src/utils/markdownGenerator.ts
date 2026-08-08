@@ -20,21 +20,28 @@ export function generateGitHubReadme(profile: ProfileData): string {
 
   let md = '';
 
-  // 1. Header Banner
+  // 1. Header Banner (Capsule Render Online - 100% GitHub Compatible)
+  const capsuleBannerUrl = `https://capsule-render.vercel.app/api?type=waving&color=${hexBg}&height=200&section=header&text=${encodeURIComponent(
+    profile.fullName || profile.username
+  )}&fontSize=38&fontColor=${hexPrimary}&animation=twinkling`;
+
   md += `<div align="center">\n\n`;
-  md += `<!-- Mountain Peak Profile Header -->\n`;
-  md += `![Mountain Header Banner](./assets/mountain-banner.svg)\n\n`;
+  md += `[![Header Banner](${capsuleBannerUrl})](https://github.com/${profile.username})\n\n`;
   md += `[![Typing SVG](${typingSvgUrl})](https://github.com/${profile.username})\n\n`;
 
   // Quick Badges
-  md += `[![Location](https://img.shields.io/badge/Location-${encodeURIComponent(profile.location)}-${theme.badgeColor}?style=for-the-badge&logo=google-maps&logoColor=10B981)](#)\n`;
-  md += `[![Peak Goal](https://img.shields.io/badge/Current_Peak-${encodeURIComponent(profile.currentPeakGoal)}-${theme.badgeColor}?style=for-the-badge&logo=mountain&logoColor=34D399)](#)\n`;
+  md += `[![Location](https://img.shields.io/badge/Location-${encodeURIComponent(
+    profile.location
+  )}-${theme.badgeColor}?style=for-the-badge&logo=google-maps&logoColor=10B981)](#)\n`;
+  md += `[![Peak Goal](https://img.shields.io/badge/Current_Peak-${encodeURIComponent(
+    profile.currentPeakGoal
+  )}-${theme.badgeColor}?style=for-the-badge&logo=mountain&logoColor=34D399)](#)\n`;
   md += `[![Daily Auto-Updated Profile](https://img.shields.io/badge/GitHub_Actions-Daily_Auto--Update-10B981?style=for-the-badge&logo=github-actions&logoColor=white)](#-github-actions-automation)\n\n`;
 
   md += `</div>\n\n`;
 
-  // 2. Mountain Ridge Divider
-  md += `![Mountain Ridge Divider](./assets/mountain-divider.svg)\n\n`;
+  // 2. Section Divider
+  md += `---\n\n`;
 
   // 3. About Me Section
   md += `## 🌲 About Me | Tentang Saya\n\n`;
@@ -158,7 +165,7 @@ export function generateGitHubReadme(profile: ProfileData): string {
   }
 
   // 10. Footer Divider & GitHub Actions Note
-  md += `![Footer Mountain Divider](./assets/mountain-divider.svg)\n\n`;
+  md += `---\n\n`;
   md += `<div align="center">\n\n`;
   md += `<sub>⚡ Profile README generated with **Mountain Dark Green Aesthetic README Generator** | Powered by GitHub Actions & Gemini AI</sub>\n\n`;
   md += `</div>\n`;

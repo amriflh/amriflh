@@ -100,11 +100,16 @@ export const MarkdownPreviewer: React.FC<MarkdownPreviewerProps> = ({
         {(activeView === 'preview' || activeView === 'split') && (
           <div className="bg-[#04120c] p-4 sm:p-8 rounded-2xl border border-[#103b29] space-y-8 font-sans max-w-4xl mx-auto shadow-inner">
             
-            {/* Banner Header SVG Preview */}
-            <div
-              className="w-full rounded-2xl overflow-hidden shadow-2xl border border-[#103b29]"
-              dangerouslySetInnerHTML={{ __html: generateMountainBannerSvg(profile) }}
-            />
+            {/* Banner Header Capsule Render Preview */}
+            <div className="w-full rounded-2xl overflow-hidden shadow-2xl border border-[#103b29] flex justify-center bg-[#04120c]">
+              <img
+                src={`https://capsule-render.vercel.app/api?type=waving&color=${theme.darkBg.replace('#','')}&height=200&section=header&text=${encodeURIComponent(
+                  profile.fullName || profile.username
+                )}&fontSize=38&fontColor=${theme.primary.replace('#','')}&animation=twinkling`}
+                alt="Header Banner"
+                className="w-full max-w-full h-auto object-cover"
+              />
+            </div>
 
             {/* Typing Animation Badge Preview */}
             <div className="text-center py-2">
@@ -130,8 +135,8 @@ export const MarkdownPreviewer: React.FC<MarkdownPreviewerProps> = ({
               </span>
             </div>
 
-            {/* Mountain Ridge Divider */}
-            <div dangerouslySetInnerHTML={{ __html: generateMountainDividerSvg(profile.theme) }} />
+            {/* Section Divider */}
+            <hr className="border-[#103b29] my-4" />
 
             {/* About Me */}
             <div className="space-y-4 text-sm leading-relaxed text-gray-300">
