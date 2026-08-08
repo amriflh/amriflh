@@ -80,6 +80,32 @@ Menulis konten blog sesuai target keyword dalam strategi SEO properti, menyusun 
 
 ---
 
+## 📈 Animated Contribution & Mountain Activity Stats
+
+<div align="center">
+
+### 🐍 GitHub Contribution Grid Snake Animation
+![Snake Animation](https://raw.githubusercontent.com/amriflh/amriflh/main/assets/github-user-contribution-grid-snake.svg)
+
+<table border="0">
+<tr>
+<td width="50%" valign="top">
+
+![amriflh's GitHub Stats](https://github-readme-stats.vercel.app/api?username=amriflh&show_icons=true&bg_color=04120C&title_color=10B981&text_color=9CA3AF&icon_color=34D399&border_color=061F16&hide_border=false)
+
+</td>
+<td width="50%" valign="top">
+
+![amriflh's GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=amriflh&background=04120C&stroke=061F16&sidenums=9CA3AF&currStreakNum=10B981&fire=34D399&currStreakLabel=34D399&border=061F16)
+
+</td>
+</tr>
+</table>
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=amriflh&layout=compact&bg_color=04120C&title_color=10B981&text_color=9CA3AF&border_color=061F16&hide_border=false)
+
+</div>
+
 ## 🌄 Dynamic Daily SEO & Mountain Quote
 
 > <!-- DAILY_QUOTE_START -->
@@ -88,7 +114,7 @@ Menulis konten blog sesuai target keyword dalam strategi SEO properti, menyusun 
 > 💡 **Today's SEO Mountain Tip**: Optimize for search intent before search volume. High altitude relevance always beats mass traffic noise.
 > <!-- DAILY_QUOTE_END -->
 
-*🔄 Auto-updated daily at 00:00 UTC via [GitHub Actions](./.github/workflows/daily-quote.yml)*
+*🔄 Auto-updated daily at 00:00 UTC via GitHub Actions*
 
 ## 🛠️ Arsenal & Tech Stack | Perlengkapan SEO & Penulisan
 
