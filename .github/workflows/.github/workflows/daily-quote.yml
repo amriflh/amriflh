@@ -35,3 +35,8 @@ jobs:
         with:
           commit_message: "docs: update daily SEO mountain quote"
           file_pattern: "README.md"
+jobs:
+  update-quote:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
