@@ -20,28 +20,34 @@ export function generateGitHubReadme(profile: ProfileData): string {
 
   let md = '';
 
-  // 1. Header Banner (100% Online Cloud-Rendered - Zero Local Asset Dependency)
+  // 1. Header Banner
   md += `<div align="center">\n\n`;
 
-  let capsuleType = 'waving';
-  let animation = 'twinkling';
+  if (profile.headerBannerStyle === 'mountain-peak') {
+    md += `<!-- Mountain Peak Profile Header Banner -->\n`;
+    md += `![Mountain Peak Header](./assets/mountain-banner.svg)\n\n`;
+  } else {
+    let capsuleType = 'waving';
+    let animation = 'twinkling';
 
-  if (profile.headerBannerStyle === 'pine-ridge') {
-    capsuleType = 'slice';
-    animation = 'fadeIn';
-  } else if (profile.headerBannerStyle === 'emerald-fog') {
-    capsuleType = 'soft';
-    animation = 'scaleIn';
-  } else if (profile.headerBannerStyle === 'topo-map') {
-    capsuleType = 'waving3d';
-    animation = 'twinkling';
+    if (profile.headerBannerStyle === 'pine-ridge') {
+      capsuleType = 'slice';
+      animation = 'fadeIn';
+    } else if (profile.headerBannerStyle === 'emerald-fog') {
+      capsuleType = 'soft';
+      animation = 'scaleIn';
+    } else if (profile.headerBannerStyle === 'topo-map') {
+      capsuleType = 'waving3d';
+      animation = 'twinkling';
+    }
+
+    const capsuleBannerUrl = `https://capsule-render.vercel.app/api?type=${capsuleType}&color=${hexBg}&height=200&section=header&text=${encodeURIComponent(
+      profile.fullName || profile.username
+    )}&fontSize=38&fontColor=${hexPrimary}&animation=${animation}`;
+
+    md += `[![Header Banner](${capsuleBannerUrl})](https://github.com/${profile.username})\n\n`;
   }
 
-  const capsuleBannerUrl = `https://capsule-render.vercel.app/api?type=${capsuleType}&color=${hexBg}&height=200&section=header&text=${encodeURIComponent(
-    profile.fullName || profile.username
-  )}&fontSize=38&fontColor=${hexPrimary}&animation=${animation}`;
-
-  md += `[![Header Banner](${capsuleBannerUrl})](https://github.com/${profile.username})\n\n`;
   md += `[![Typing SVG](${typingSvgUrl})](https://github.com/${profile.username})\n\n`;
 
   // Quick Badges
@@ -56,7 +62,11 @@ export function generateGitHubReadme(profile: ProfileData): string {
   md += `</div>\n\n`;
 
   // 2. Section Divider
-  md += `---\n\n`;
+  if (profile.headerBannerStyle === 'mountain-peak') {
+    md += `![Mountain Ridge Divider](./assets/mountain-divider.svg)\n\n`;
+  } else {
+    md += `---\n\n`;
+  }
 
   // 3. About Me Section
   md += `## 🌲 About Me | Tentang Saya\n\n`;

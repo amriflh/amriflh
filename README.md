@@ -1,737 +1,175 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-55KF3482LM"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<div align="center">
 
-  gtag('config', 'G-55KF3482LM');
-</script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Berapa harga laundry per kilonya? Laundry Express Mamamu</title>
-    <meta name="description" content="Daftar Harga Laundry di Jakarta dengan harga terjangkau. Tersedia layanan laundry kiloan, express, dan satuan dengan antar.">
-    <meta name="keywords" content="Harga Laundry Kiloan, Harga Laundry Express, Harga Laundry Satuan, Laundry Jakarta, Jasa Laundry, Cuci Baju Jakarta, Price list laundry">
-        <!-- Favicon -->
-<link rel="icon" type="image/png" sizes="32x32" href="https://langsungcuan.biz.id/gambarbebas/20250319-081649_Logo%20new%20Laundry%20Mamamu%20(1).png">
-<link rel="icon" type="image/png" sizes="16x16" href="https://langsungcuan.biz.id/gambarbebas/20250319-081649_Logo%20new%20Laundry%20Mamamu%20(1).png">
-<link rel="apple-touch-icon" sizes="180x180" href="https://langsungcuan.biz.id/gambarbebas/20250319-081649_Logo%20new%20Laundry%20Mamamu%20(1).png">
-<link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-    
-    <style>
-        :root {
-            --primary-color: #3498db;
-            --secondary-color: #2980b9;
-            --accent-color: #f1c40f;
-            --light-bg: #f8f9fa;
-            --dark-bg: #343a40;
-        }
-        
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-        }
-        
-        .bg-hero {
-            background: linear-gradient(rgba(52, 152, 219, 0.8), rgba(41, 128, 185, 0.9)), url('/api/placeholder/1200/600') no-repeat center center;
-            background-size: cover;
-            color: white;
-            padding: 100px 0;
-        }
-        
-        .section-title {
-            position: relative;
-            margin-bottom: 40px;
-            padding-bottom: 15px;
-            text-align: center;
-            font-weight: 700;
-        }
-        
-        .section-title:after {
-            content: '';
-            position: absolute;
-            left: 50%;
-            bottom: 0;
-            transform: translateX(-50%);
-            height: 4px;
-            width: 60px;
-            background-color: var(--accent-color);
-        }
-        
-        .price-card {
-            border-radius: 15px;
-            overflow: hidden;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-            transition: transform 0.3s, box-shadow 0.3s;
-            height: 100%;
-        }
-        
-        .price-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 15px 30px rgba(0,0,0,0.15);
-        }
-        
-        .price-header {
-            background-color: var(--primary-color);
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        
-        .price-header.express {
-            background-color: var(--accent-color);
-            color: var(--dark-bg);
-        }
-        
-        .price-header.satuan {
-            background-color: var(--secondary-color);
-        }
-        
-        .price-amount {
-            font-size: 2.5rem;
-            font-weight: bold;
-            margin: 15px 0;
-        }
-        
-        .price-period {
-            font-size: 0.9rem;
-            opacity: 0.8;
-        }
-        
-        .price-features {
-            padding: 20px;
-        }
-        
-        .feature-item {
-            display: flex;
-            align-items: flex-start;
-            margin-bottom: 15px;
-        }
-        
-        .feature-icon {
-            margin-right: 10px;
-            color: var(--primary-color);
-            font-size: 1.2rem;
-            padding-top: 2px;
-        }
-        
-        .feature-text {
-            flex: 1;
-        }
-        
-        .cta-section {
-            background-color: var(--light-bg);
-        }
-        
-        .btn-laundry {
-            background-color: var(--primary-color);
-            color: white;
-            border: none;
-            padding: 12px 30px;
-            border-radius: 50px;
-            font-weight: 600;
-            transition: all 0.3s;
-        }
-        
-        .btn-laundry:hover {
-            background-color: var(--secondary-color);
-            transform: translateY(-3px);
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-            color: white;
-        }
-        
-        .btn-express {
-            background-color: var(--accent-color);
-            color: var(--dark-bg);
-        }
-        
-        .btn-express:hover {
-            background-color: #e0b60d;
-            color: var(--dark-bg);
-        }
-        
-        .faq-section {
-            background-color: var(--light-bg);
-        }
-        
-        .accordion-button:not(.collapsed) {
-            background-color: rgba(52, 152, 219, 0.1);
-            color: var(--primary-color);
-            box-shadow: none;
-        }
-        
-        .accordion-button:focus {
-            box-shadow: none;
-            border-color: rgba(52, 152, 219, 0.25);
-        }
-        
-        .footer {
-            background-color: var(--dark-bg);
-            color: white;
-        }
-        
-        .footer a {
-            color: rgba(255,255,255,0.8);
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-        
-        .footer a:hover {
-            color: white;
-        }
-        
-        .social-icons a {
-            display: inline-block;
-            width: 40px;
-            height: 40px;
-            background-color: rgba(255,255,255,0.1);
-            border-radius: 50%;
-            text-align: center;
-            line-height: 40px;
-            margin-right: 10px;
-            transition: background-color 0.3s;
-        }
-        
-        .social-icons a:hover {
-            background-color: var(--primary-color);
-        }
-        
-        @media (max-width: 768px) {
-            .bg-hero {
-                padding: 60px 0;
-            }
-            
-            .price-card {
-                margin-bottom: 30px;
-            }
-            
-        }
-    </style>
-</head>
-<body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
-        <div class="container">
-            <a class="navbar-brand fw-bold text-primary" href="#">
-                <i class="fas fa-tshirt me-2"></i>Laundry Express Mamamu
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#beranda">Beranda</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#layanan">Layanan</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#harga">Harga</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#kontak">Kontak</a>
-                    </li>
-                </ul>
-                <div class="ms-3 d-none d-lg-block">
-                    <a href="tel:+62 878-7431-0253"target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary rounded-pill">
-                        <i class="fas fa-phone-alt me-2"></i>0878-7431-0253
-                    </a>
-                </div>
-            </div>
-        </div>
-    </nav>
-        <!-- Hero Section -->
-        <header class="bg-hero" id="beranda">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <h1 class="display-4 fw-bold mb-4">Berapa Harga Laundry Perkilo?</h1>
-                        <p class="lead mb-4">Berikut Harga laundry Per kilo Terjangkau, express, dan satuan dengan harga terjangkau dan kualitas terbaik di Jakarta.</p>
-                        <div class="d-flex gap-3">
-                            <a href="#harga" class="btn btn-light btn-lg rounded-pill shadow">Lihat Harga</a>
-                            <a href="https://wa.me/6287874310253"target="_blank" class="btn btn-outline-light btn-lg rounded-pill">
-                                <i class="fab fa-whatsapp me-2"></i>Hubungi Kami
-                            </a>
-                        </div>
-                    </div>
-            </div>
-        </header>
-    
-    <!-- Hero Section -->
-    <section class="py-5" id="layanan">
-        <div class="container">
-            <h2 class="section-title text-center mb-4">Keunggulan Kami</h2>
-            <div class="row g-4">
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100 border-0 shadow-sm">
-                        <div class="card-body text-center p-4">
-                            <div class="rounded-circle bg-primary bg-opacity-10 p-3 d-inline-block mb-3">
-                                <i class="fas fa-truck text-primary fa-2x"></i>
-                            </div>
-                            <h4>Antar Jemput Gratis</h4>
-                            <p class="text-muted">Layanan antar jemput gratis untuk area Jakarta dengan minimal order tertentu.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100 border-0 shadow-sm">
-                        <div class="card-body text-center p-4">
-                            <div class="rounded-circle bg-primary bg-opacity-10 p-3 d-inline-block mb-3">
-                                <i class="fas fa-spray-can text-primary fa-2x"></i>
-                            </div>
-                            <h4>Bersih, Rapi, & Wangi</h4>
-                            <p class="text-muted">Menggunakan deterjen premium dan pewangi berkualitas untuk hasil yang maksimal.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100 border-0 shadow-sm">
-                        <div class="card-body text-center p-4">
-                            <div class="rounded-circle bg-primary bg-opacity-10 p-3 d-inline-block mb-3">
-                                <i class="fas fa-clock text-primary fa-2x"></i>
-                            </div>
-                            <h4>Tepat Waktu</h4>
-                            <p class="text-muted">Komitmen ketepatan waktu dalam pengerjaan sesuai dengan layanan yang dipilih.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100 border-0 shadow-sm">
-                        <div class="card-body text-center p-4">
-                            <div class="rounded-circle bg-primary bg-opacity-10 p-3 d-inline-block mb-3">
-                                <i class="fas fa-calendar-alt text-primary fa-2x"></i>
-                            </div>
-                            <h4>Waktu Fleksibel</h4>
-                            <p class="text-muted">Pilih jadwal pengambilan dan pengantaran sesuai dengan kebutuhan kamu.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100 border-0 shadow-sm">
-                        <div class="card-body text-center p-4">
-                            <div class="rounded-circle bg-primary bg-opacity-10 p-3 d-inline-block mb-3">
-                                <i class="fas fa-headset text-primary fa-2x"></i>
-                            </div>
-                            <h4>CS 24 Jam</h4>
-                            <p class="text-muted">Layanan pelanggan siap membantu kamu selama 24 jam setiap hari.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100 border-0 shadow-sm">
-                        <div class="card-body text-center p-4">
-                            <div class="rounded-circle bg-primary bg-opacity-10 p-3 d-inline-block mb-3">
-                                <i class="fas fa-smile text-primary fa-2x"></i>
-                            </div>
-                            <h4>97% Pelanggan Puas</h4>
-                            <p class="text-muted">Tingkat kepuasan pelanggan yang tinggi membuktikan kualitas layanan kami.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <!-- Pricing Section -->
-    <section class="py-5 bg-light" id="harga">
-        <div class="container">
-            <h2 class="section-title">Daftar Harga Laundry</h2>
-            <div class="row g-4">
-                <!-- Layanan Kiloan -->
-                <div class="col-md-4">
-                    <div class="price-card">
-                        <div class="price-header">
-                            <h3>Laundry Kiloan</h3>
-                            <div class="price-amount">Rp 8.000</div>
-                            <div class="price-period">per kilogram</div>
-                        </div>
-                        <div class="price-features">
-                            <div class="feature-item">
-                                <div class="feature-icon">
-                                    <i class="fas fa-truck"></i>
-                                </div>
-                                <div class="feature-text">
-                                    <strong>Tidak Antar Jemput </strong> untuk minimal 5kg
-                                </div>
-                            </div>
-                            <div class="feature-item">
-                                <div class="feature-icon">
-                                    <i class="fas fa-spray-can"></i>
-                                </div>
-                                <div class="feature-text">
-                                    <strong>Bersih, Rapi & Wangi</strong> dengan deterjen premium
-                                </div>
-                            </div>
-                            <div class="feature-item">
-                                <div class="feature-icon">
-                                    <i class="fas fa-clock"></i>
-                                </div>
-                                <div class="feature-text">
-                                    <strong>Selesai 2-3 hari</strong> setelah cucian diterima
-                                </div>
-                            </div>
-                            <div class="feature-item">
-                                <div class="feature-icon">
-                                    <i class="fas fa-tshirt"></i>
-                                </div>
-                                <div class="feature-text">
-                                    <strong>Cuci, Kering, Setrika & Lipat</strong> dalam satu paket
-                                </div>
-                            </div>
-                            <div class="mt-4 text-center">
-                                <a href="https://wa.me/6287874310253?text=Halo,%20saya%20tertarik%20dengan%20layanan%20Laundry%20Kiloan"target="_blank" rel="noopener noreferrer" class="btn btn-laundry w-100">
-                                    <i class="fab fa-whatsapp me-2"></i>Pesan Sekarang
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Layanan Express -->
-                <div class="col-md-4">
-                    <div class="price-card">
-                        <div class="price-header express">
-                            <span class="badge bg-danger position-absolute top-0 end-0 mt-3 me-3">CEPAT</span>
-                            <h3>Laundry Express</h3>
-                            <div class="price-amount">Rp 15.000</div>
-                            <div class="price-period">per kilogram</div>
-                        </div>
-                        <div class="price-features">
-                            <div class="feature-item">
-                                <div class="feature-icon">
-                                    <i class="fas fa-truck"></i>
-                                </div>
-                                <div class="feature-text">
-                                    <strong>Antar Jemput Gratis</strong> untuk semua berat dan radius 3km
-                                </div>
-                            </div>
-                            <div class="feature-item">
-                                <div class="feature-icon">
-                                    <i class="fas fa-spray-can"></i>
-                                </div>
-                                <div class="feature-text">
-                                    <strong>Extra Pewangi Premium</strong> dengan ketahanan aroma lebih lama
-                                </div>
-                            </div>
-                            <div class="feature-item">
-                                <div class="feature-icon">
-                                    <i class="fas fa-clock"></i>
-                                </div>
-                                <div class="feature-text">
-                                    <strong>Selesai 4-24 jam</strong> atau bahkan lebih cepat
-                                </div>
-                            </div>
-                            <div class="feature-item">
-                                <div class="feature-icon">
-                                    <i class="fas fa-star"></i>
-                                </div>
-                                <div class="feature-text">
-                                    <strong>Prioritas Utama</strong> dalam antrian pengerjaan
-                                </div>
-                            </div>
-                            <div class="mt-4 text-center">
-                                <a href="https://wa.me/6287874310253?text=Halo,%20saya%20tertarik%20dengan%20layanan%20Laundry%20Express"target="_blank" rel="noopener noreferrer" class="btn btn-laundry btn-express w-100">
-                                    <i class="fab fa-whatsapp me-2"></i>Pesan Sekarang
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Layanan Satuan -->
-                <div class="col-md-4">
-                    <div class="price-card">
-                        <div class="price-header satuan">
-                            <h3>Laundry Satuan</h3>
-                            <div class="price-amount">Rp 25.000<span class="fs-6">*</span></div>
-                            <div class="price-period">per item (mulai dari)</div>
-                        </div>
-                        <div class="price-features">
-                            <div class="feature-item">
-                                <div class="feature-icon">
-                                    <i class="fas fa-truck"></i>
-                                </div>
-                                <div class="feature-text">
-                                    <strong>Antar Jemput Gratis</strong> untuk minimal 3 item atau radius 6km
-                                </div>
-                            </div>
-                            <div class="feature-item">
-                                <div class="feature-icon">
-                                    <i class="fas fa-spray-can"></i>
-                                </div>
-                                <div class="feature-text">
-                                    <strong>Treatment Khusus</strong> sesuai dengan jenis bahan pakaian
-                                </div>
-                            </div>
-                            <div class="feature-item">
-                                <div class="feature-icon">
-                                    <i class="fas fa-clock"></i>
-                                </div>
-                                <div class="feature-text">
-                                    <strong>Selesai 1-2 hari</strong> tergantung jenis item
-                                </div>
-                            </div>
-                            <div class="feature-item">
-                                <div class="feature-icon">
-                                    <i class="fas fa-tshirt"></i>
-                                </div>
-                                <div class="feature-text">
-                                    <strong>Cocok untuk</strong> jas, gaun, sepatu, tas, bed cover, boneka, dll
-                                </div>
-                            </div>
-                            <div class="mt-4 text-center">
-                                <a href="https://wa.me/6287874310253?text=Halo,%20saya%20tertarik%20dengan%20layanan%20Laundry%20Satuan"target="_blank" rel="noopener noreferrer" class="btn btn-laundry w-100">
-                                    <i class="fab fa-whatsapp me-2"></i>Pesan Sekarang
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="text-center mt-4">
-                <p class="text-muted"><small>* Harga sudah termasuk semua jenis item kecuali Selimut, Badcover dan pakaian yang ingin di gantung . Silakan hubungi kami untuk informasi lebih lanjut.</small></p>
-            </div>
-        </div>
-    </section>
-    
-    <!-- Price List Detail -->
-    <section class="py-5">
-        <div class="container">
-            <h2 class="section-title">Daftar Harga Lengkap Laundry Satuan</h2>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="card shadow-sm mb-4">
-                        <div class="card-header bg-primary text-white">
-                            <h5 class="mb-0">Pakaian</h5>
-                        </div>
-                        <div class="card-body">
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Kemeja
-                                    <span>Rp 25.000</span>
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Celana Panjang
-                                    <span>Rp 25.000</span>
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Jas
-                                    <span>Rp 50.000</span>
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Gaun
-                                    <span>Rp 75.000 - 150.000</span>
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Jaket
-                                    <span>Rp 35.000 - 65.000</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="card shadow-sm mb-4">
-                        <div class="card-header bg-primary text-white">
-                            <h5 class="mb-0">Perlengkapan Rumah Tangga</h5>
-                        </div>
-                        <div class="card-body">
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Bed Cover Single
-                                    <span>Rp 45.000</span>
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Bed Cover King/Queen
-                                    <span>Rp 65.000</span>
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Selimut
-                                    <span>Rp 35.000 - 55.000</span>
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Karpet
-                                    <span>Rp 35.000/m²</span>
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Gorden
-                                    <span>Rp 30.000/m²</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="card shadow-sm mb-4">
-                        <div class="card-header bg-primary text-white">
-                            <h5 class="mb-0">Sepatu & Tas</h5>
-                        </div>
-                        <div class="card-body">
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Sepatu Kanvas
-                                    <span>Rp 35.000</span>
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Sepatu Sneakers
-                                    <span>Rp 45.000</span>
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Sepatu Kulit
-                                    <span>Rp 75.000</span>
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Tas Kecil
-                                    <span>Rp 50.000</span>
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Tas Besar
-                                    <span>Rp 75.000 - 150.000</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="card shadow-sm mb-4">
-                        <div class="card-header bg-primary text-white">
-                            <h5 class="mb-0">Lainnya</h5>
-                        </div>
-                        <div class="card-body">
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Boneka Kecil
-                                    <span>Rp 30.000</span>
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Boneka Besar
-                                    <span>Rp 50.000 - 100.000</span>
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Helm
-                                    <span>Rp 40.000</span>
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Topi
-                                    <span>Rp 25.000</span>
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Sofa (per dudukan)
-                                    <span>Rp 100.000</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <!-- Area Layanan Section -->
-    <section class="py-5">
-        <div class="container">
-            <h2 class="section-title">Area Layanan Jakarta</h2>
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="card h-100 border-0 shadow-sm">
-                        <div class="card-body text-center p-4">
-                            <div class="rounded-circle bg-primary bg-opacity-10 p-3 d-inline-block mb-3">
-                                <i class="fas fa-map-marker-alt text-primary fa-2x"></i>
-                            </div>
-                            <h4>Jakarta Pusat</h4>
-                            <p class="text-muted mb-3">Menteng, Tanah Abang, Senen, Kemayoran, Sawah Besar, Gambir, Cempaka Putih, Johar Baru</p>
-                            <span class="badge bg-success py-2 px-3">Prioritas Pengiriman</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card h-100 border-0 shadow-sm">
-                        <div class="card-body text-center p-4">
-                            <div class="rounded-circle bg-primary bg-opacity-10 p-3 d-inline-block mb-3">
-                                <i class="fas fa-map-marker-alt text-primary fa-2x"></i>
-                            </div>
-                            <h4>Jakarta Barat & Utara</h4>
-                            <p class="text-muted mb-3">Kebon Jeruk, Palmerah, Grogol, Tambora, Tanjung Priok, Pademangan, Penjaringan, Koja, Kelapa Gading</p>
-                            <span class="badge bg-primary py-2 px-3">Antar Jemput Gratis</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card h-100 border-0 shadow-sm">
-                        <div class="card-body text-center p-4">
-                            <div class="rounded-circle bg-primary bg-opacity-10 p-3 d-inline-block mb-3">
-                                <i class="fas fa-map-marker-alt text-primary fa-2x"></i>
-                            </div>
-                            <h4>Jakarta Timur & Selatan</h4>
-                            <p class="text-muted mb-3">Jatinegara, Duren Sawit, Matraman, Pulo Gadung, Kebayoran Baru, Pancoran, Tebet, Jagakarsa, Pasar Minggu</p>
-                            <span class="badge bg-primary py-2 px-3">Antar Jemput Gratis</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="text-center mt-4">
-                <p>Laundry Express Mamamu melayani seluruh area Jakarta dengan layanan antar jemput gratis. Untuk informasi lebih lanjut tentang cakupan area layanan, silakan hubungi customer service kami.</p>
-            </div>
-        </div>
-    </section>
+<!-- Mountain Peak Profile Header Banner -->
+![Mountain Peak Header](./assets/mountain-banner.svg)
 
-    <!-- CTA Section -->
-    <section class="py-5 cta-section">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-8 mb-4 mb-lg-0">
-                    <h2 class="fw-bold">Dapatkan Penawaran Spesial!</h2>
-                    <p class="lead mb-0">Diskon 20% untuk pelanggan baru di seluruh Jakarta. Hubungi kami sekarang untuk mendapatkan layanan laundry terbaik di Jakarta!</p>
-                </div>
-                <div class="col-lg-4 text-lg-end">
-                    <a href="https://wa.me/6287874310253"target="_blank" rel="noopener noreferrer" class="btn btn-laundry btn-lg">
-                        <i class="fab fa-whatsapp me-2"></i>Hubungi Kami
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <style>
-        @media (max-width: 576px) {
-            .card {
-                margin-bottom: 1rem;
-            }
-            .card-body {
-                padding: 1rem !important;
-            }
-            .card-title {
-                font-size: 1.25rem;
-            }
-            .card-text {
-                font-size: 0.9rem;
-            }
-        }
-        </style>
-            <section>
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-8 mb-4 mb-lg-0">
-                            <h2 class="fw-bold">Lokasi Kami</h2>
-                            <p class="lead mb-0">Kunjungi Laundry Express Mamamu di lokasi berikut:</p>
-                        </div>
-                        <div style="width: 100%; max-width: 800px; margin: 0 auto;">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5412296457885!2d106.841258374556!3d-6.19208329379556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f50009c1cf23%3A0x8de73610560fcbb0!2sLAUNDRY%20EXPRESS%20MAMAMU!5e0!3m2!1sid!2sid!4v1743777990071!5m2!1sid!2sid"
-                            width="100%"
-                            height="450"
-                            style="border:0;"
-                            allowfullscreen=""
-                            loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"
-                            title="Lokasi Laundry Express Mamamu">
-                        </iframe>
-                        </div>
-                    </section>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=10B981&center=true&vCenter=true&width=700&lines=Content%20Strategist%20%26%20Technical%20SEO%20Specialist;Scaling%20Organic%20Search%20Peak%20Rankings%20%F0%9F%8F%90%F0%9F%93%88;Crafting%20Engaging%20Tech%20%26%20Outdoor%20Content%20%E2%9C%8D%EF%B8%8F%F0%9F%8F%B2;Automating%20SEO%20Workflows%20with%20Python%20%26%20AI%20%E2%9A%99%EF%B8%8F)](https://github.com/amriflh)
+
+[![Location](https://img.shields.io/badge/Location-Jakarta%2C%20Indonesia%20%F0%9F%87%AE%F0%9F%87%A9-061F16?style=for-the-badge&logo=google-maps&logoColor=10B981)](#)
+[![Peak Goal](https://img.shields.io/badge/Current_Peak-Meraih%20%231%20Google%20Maps%20%26%20Menghasilkan%20Konversi%20Organik%20Nyata%20%E2%9B%B0%EF%B8%8F%F0%9F%93%88-061F16?style=for-the-badge&logo=mountain&logoColor=34D399)](#)
+[![Daily Auto-Updated Profile](https://img.shields.io/badge/GitHub_Actions-Daily_Auto--Update-10B981?style=for-the-badge&logo=github-actions&logoColor=white)](#)
+
+</div>
+
+![Mountain Ridge Divider](./assets/mountain-divider.svg)
+
+## 🌲 About Me | Tentang Saya
+
+Halo, saya Ahmad Amri Falah 👋! Content Strategist & Technical SEO Specialist. Saya berpengalaman mengubah situasi yang membutuhkan keteraturan dan hasil terukur menjadi strategi konten yang benar-benar mendatangkan trafik dan konversi nyata.
+
+Fokus utama saya mencakup SEO Lokal & Google Business Profile, riset kata kunci (SEMrush, Google Keyword Planner, Ubersuggest), Content Writing & Strategy untuk AI Overview (SGE) Google, Technical SEO (optimasi skema artikel & HTML/CSS manual di CMS Laravel), serta Landing Page & Meta Ads berkonversi tinggi.
+
+### 🎯 Core Capabilities & Value Proposition
+
+- 🎯 Teliti & Terorganisir: Menyukai rencana yang jelas, kalender konten berbasis data, dan konsisten menepati komitmen.
+- 🔥 Gigih & Berkelanjutan: Tidak mudah menyerah menghadapi rintangan algoritma dan selalu menyelesaikan apa yang sudah dimulai.
+- 🌱 Berorientasi pada Pertumbuhan: Percaya kemampuan bisa terus dikembangkan lewat usaha, eksperimen, dan strategi yang lebih baik.
+- 💡 Dampak Konversi Nyata: Mengutamakan hasil yang bermanfaat (prospek B2B, panggilan bisnis riil), bukan sekadar vanity metrics.
+
+## 📊 SEO & Content Peak Achievements
+
+| Metric | Value | Impact & Focus Area |
+| :--- | :---: | :--- |
+| **Alatan Asasta B2B Leads** | `14 Lead & +722%` | Prospek B2B & unduhan regulasi dari 18 ke 148 |
+| **Laundry Express Mamamu** | `#1 Google Maps` | 254 panggilan bisnis per bulan dari GBP |
+| **Toko Kue A Tiga** | `Hal. 1 Google` | Tembus Halaman 1 Google untuk 3 kata kunci dalam 2 bulan |
+| **Sertifikasi SEO & Writing** | `4 Certification` | Semrush, Google Skill, MySkill & Impactful Writer |
+
+## 🚀 Featured Case Studies & Projects | Proyek Unggulan
+
+### 🏢 Alatan Asasta Indonesia
+*Category: `B2B Technical SEO & Content Strategy`* | **Impact:** `14 Prospek B2B/Gov & +722% Downloads`
+
+Merancang strategi konten TOFU/MOFU/BOFU berbasis data CSO & webinar. Menghasilkan 14 prospek organik B2B/pemerintahan, menaikkan unduhan regulasi dari 18 ke 148 (+722%), menjaga CTR GSC di angka 2%, serta menulis kode HTML/CSS manual pada CMS Laravel untuk optimasi skema artikel & PageSpeed Insights.
+
+**Tech & Tools:** `CMS Laravel` • `Technical SEO` • `SEMrush` • `Schema Markup` • `HTML/CSS` • `Lead Magnet`
+
+[🌐 View Live Project](https://portofolio-seo-specialist.ahmad-amri-falah.workers.dev/)
+
+---
+
+### 🧺 Laundry Express Mamamu
+*Category: `Local SEO & Google Business Profile`* | **Impact:** `#1 Google Maps & 254 Calls/Bulan`
+
+Optimasi Google Business Profile hingga meraih Peringkat #1 di Google Maps dan menghasilkan 254 panggilan bisnis per bulan. Menyusun strategi konten SEO lokal komprehensif dan penulisan artikel LinkedIn.
+
+**Tech & Tools:** `Google Business Profile` • `Local SEO` • `Keyword Research` • `LinkedIn Content Strategy`
+
+[🌐 View Live Project](https://portofolio-seo-specialist.ahmad-amri-falah.workers.dev/)
+
+---
+
+### 🧁 Toko Kue A Tiga
+*Category: `SEO Content & Landing Page Builder`* | **Impact:** `Halaman 1 Google dalam 2 Bulan`
+
+Membawa website dari tidak terindeks menjadi Halaman 1 Google untuk 3 kata kunci produk utama dalam waktu 2 bulan. Membuat landing page WhatsApp yang terkonversi dan meningkatkan trafik organik lewat internal linking.
+
+**Tech & Tools:** `Landing Page Builder` • `WhatsApp Conversion` • `Internal Linking` • `On-Page SEO`
+
+[🌐 View Live Project](https://portofolio-seo-specialist.ahmad-amri-falah.workers.dev/)
+
+---
+
+### 🏠 Groperti - Content Writer Intern
+*Category: `SEO Property Content Writing`* | **Impact:** `Peningkatan CTR Organik Blog`
+
+Menulis konten blog sesuai target keyword dalam strategi SEO properti, menyusun judul & meta description untuk meningkatkan CTR organik.
+
+**Tech & Tools:** `SEO Writing` • `Keyword Research` • `Meta Descriptions` • `Property Niche`
+
+[🌐 View Live Project](https://portofolio-seo-specialist.ahmad-amri-falah.workers.dev/)
+
+---
+
+## 📈 Animated Contribution & Mountain Activity Stats
+
+<div align="center">
+
+### 🐍 GitHub Contribution Grid Snake Animation
+![Snake Animation](https://raw.githubusercontent.com/amriflh/amriflh/main/assets/github-user-contribution-grid-snake.svg)
+
+<table border="0">
+<tr>
+<td width="50%" valign="top">
+
+![amriflh's GitHub Stats](https://github-readme-stats.vercel.app/api?username=amriflh&show_icons=true&bg_color=04120C&title_color=10B981&text_color=9CA3AF&icon_color=34D399&border_color=061F16&hide_border=false)
+
+</td>
+<td width="50%" valign="top">
+
+![amriflh's GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=amriflh&background=04120C&stroke=061F16&sidenums=9CA3AF&currStreakNum=10B981&fire=34D399&currStreakLabel=34D399&border=061F16)
+
+</td>
+</tr>
+</table>
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=amriflh&layout=compact&bg_color=04120C&title_color=10B981&text_color=9CA3AF&border_color=061F16&hide_border=false)
+
+</div>
+
+## 🌄 Dynamic Daily SEO & Mountain Quote
+
+> <!-- DAILY_QUOTE_START -->
+> *"SEO is not about gaming the system. It is about delivering high altitude value to the searcher, one peak at a time."*
+> 
+> 💡 **Today's SEO Mountain Tip**: Optimize for search intent before search volume. High altitude relevance always beats mass traffic noise.
+> <!-- DAILY_QUOTE_END -->
+
+*🔄 Auto-updated daily at 00:00 UTC via GitHub Actions*
+
+## 🛠️ Arsenal & Tech Stack | Perlengkapan SEO & Penulisan
+
+### 🔍 SEO & Analytics Suite
+<p align="left">
+  <img src="https://img.shields.io/badge/Semrush-FF642D?style=for-the-badge&logo=semrush&logoColor=white" alt="Semrush" height="32" />
+  <img src="https://img.shields.io/badge/Google_Search_Console-4285F4?style=for-the-badge&logo=google-search-console&logoColor=white" alt="Google Search Console" height="32" />
+  <img src="https://img.shields.io/badge/Google_Business_Profile-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Business Profile" height="32" />
+  <img src="https://img.shields.io/badge/Google_Keyword_Planner-4285F4?style=for-the-badge&logo=google-ads&logoColor=white" alt="Google Keyword Planner" height="32" />
+  <img src="https://img.shields.io/badge/Ubersuggest-FF5722?style=for-the-badge&logo=ubiquiti&logoColor=white" alt="Ubersuggest" height="32" />
+  <img src="https://img.shields.io/badge/PageSpeed_Insights-0F9D58?style=for-the-badge&logo=lighthouse&logoColor=white" alt="PageSpeed Insights" height="32" />
+</p>
+
+### 💻 Technical SEO & Content Strategy
+<p align="left">
+  <img src="https://img.shields.io/badge/CMS_Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="CMS Laravel" height="32" />
+  <img src="https://img.shields.io/badge/HTML5_%26_CSS3-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 & CSS3" height="32" />
+  <img src="https://img.shields.io/badge/Schema.org_Markup-000000?style=for-the-badge&logo=json&logoColor=10B981" alt="Schema.org Markup" height="32" />
+  <img src="https://img.shields.io/badge/Landing_Page_Builder-10B981?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Landing Page Builder" height="32" />
+  <img src="https://img.shields.io/badge/Meta_Ads_(FB/IG)-0467DF?style=for-the-badge&logo=meta&logoColor=white" alt="Meta Ads (FB/IG)" height="32" />
+</p>
+
+### 🏆 Sertifikasi Resmi
+<p align="left">
+  <img src="https://img.shields.io/badge/Semrush_SEO_Fundamentals_(2024)-FF642D?style=for-the-badge&logo=semrush&logoColor=white" alt="Semrush SEO Fundamentals (2024)" height="32" />
+  <img src="https://img.shields.io/badge/Google_My_Business_Basics_(2024)-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google My Business Basics (2024)" height="32" />
+  <img src="https://img.shields.io/badge/MySkill_SEO_Course_(2024)-10B981?style=for-the-badge&logo=education&logoColor=white" alt="MySkill SEO Course (2024)" height="32" />
+  <img src="https://img.shields.io/badge/Impactful_Writer_Cert_(2025)-34D399?style=for-the-badge&logo=medium&logoColor=black" alt="Impactful Writer Cert (2025)" height="32" />
+</p>
+
+## 📬 Connect & Collaborate | Link Media Sosial
+
+<p align="left">
+  <a href="https://portofolio-seo-specialist.ahmad-amri-falah.workers.dev/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-10B981?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio Website" height="36" />
+  </a>
+  <a href="https://www.linkedin.com/in/ahmad-amri-falah-54a232291/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="36" />
+  </a>
+  <a href="https://www.instagram.com/amridigital.ai/" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" height="36" />
+  </a>
+  <a href="https://wa.me/62895326089411" target="_blank">
+    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" height="36" />
+  </a>
+  <a href="mailto:falahamri93@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Direct" height="36" />
+  </a>
+</p>
+
+---
+
+<div align="center">
+
+<sub>⚡ Profile README generated with **Mountain Dark Green Aesthetic README Generator**</sub>
+
+</div>
