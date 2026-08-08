@@ -129,54 +129,48 @@ export const MarkdownPreviewer: React.FC<MarkdownPreviewerProps> = ({
         {(activeView === 'preview' || activeView === 'split') && (
           <div className="space-y-4 max-w-4xl mx-auto">
             
-            {/* Guide Info Banner for GitHub SVG Assets */}
+            {/* Guide Info Banner for 100% Online Self-Contained README */}
             <div className="bg-[#0c3d2a]/70 border border-[#103b29] p-3.5 rounded-xl flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs shadow-lg">
               <div className="flex items-start gap-2 text-gray-200">
                 <Sparkles className="w-4 h-4 text-[#10b981] shrink-0 mt-0.5" />
                 <div>
-                  <span className="font-bold text-[#10b981] block">💡 Menampilkan Banner Mountain & Divider di GitHub Profile</span>
+                  <span className="font-bold text-[#10b981] block">💡 100% Self-Contained README (Tanpa Gambar Rusak / Error)</span>
                   <span>
-                    Banner ini menggunakan SVG kustom (<code className="text-[#34d399]">./assets/mountain-banner.svg</code>). Download ZIP repository lalu upload folder <code className="text-[#34d399]">assets/</code> ke repository GitHub Anda (<code className="text-[#34d399]">github.com/{profile.username}/{profile.username}</code>) agar gambar muncul sempurna!
+                    Semua banner animasi, widget, badge, dan komponen sudah disatukan ke dalam 1 file <code className="text-[#34d399]">README.md</code> menggunakan URL Cloud API online. Cukup salin teks markdown atau download <code className="text-[#34d399]">README.md</code> dan paste langsung di GitHub!
                   </span>
                 </div>
               </div>
               <div className="flex items-center gap-2 shrink-0 w-full sm:w-auto justify-end">
                 <button
-                  onClick={() => downloadSingleSvg('banner')}
-                  className="px-2.5 py-1 bg-[#10b981]/20 hover:bg-[#10b981] hover:text-[#04120c] text-[#10b981] font-semibold rounded-lg border border-[#10b981]/40 transition-all text-[11px] flex items-center gap-1"
-                >
-                  <Download className="w-3 h-3" />
-                  <span>Download SVG</span>
-                </button>
-                <button
-                  onClick={onDownloadZip}
+                  onClick={onCopyReadme}
                   className="px-2.5 py-1 bg-[#10b981] text-[#04120c] font-bold rounded-lg hover:bg-[#34d399] transition-all text-[11px] flex items-center gap-1"
                 >
-                  <FolderTree className="w-3 h-3" />
-                  <span>Download ZIP</span>
+                  <Copy className="w-3 h-3" />
+                  <span>{isCopied ? 'Tersalin!' : 'Salin README'}</span>
                 </button>
               </div>
             </div>
 
             <div className="bg-[#04120c] p-4 sm:p-8 rounded-2xl border border-[#103b29] space-y-8 font-sans shadow-inner">
               
-              {/* Banner Header Preview */}
-              {profile.headerBannerStyle === 'capsule-render' ? (
-                <div className="w-full rounded-2xl overflow-hidden shadow-2xl border border-[#103b29] flex justify-center bg-[#04120c]">
-                  <img
-                    src={`https://capsule-render.vercel.app/api?type=waving&color=${theme.darkBg.replace('#','')}&height=200&section=header&text=${encodeURIComponent(
-                      profile.fullName || profile.username
-                    )}&fontSize=38&fontColor=${theme.primary.replace('#','')}`}
-                    alt="Capsule Render Header Banner"
-                    className="w-full max-w-full h-auto object-cover"
-                  />
-                </div>
-              ) : (
-                <div
-                  className="w-full rounded-2xl overflow-hidden shadow-2xl border border-[#103b29]"
-                  dangerouslySetInnerHTML={{ __html: generateMountainBannerSvg(profile) }}
+              {/* Banner Header Preview (100% Online Cloud Render) */}
+              <div className="w-full rounded-2xl overflow-hidden shadow-2xl border border-[#103b29] flex justify-center bg-[#04120c]">
+                <img
+                  src={`https://capsule-render.vercel.app/api?type=${
+                    profile.headerBannerStyle === 'pine-ridge'
+                      ? 'slice'
+                      : profile.headerBannerStyle === 'emerald-fog'
+                      ? 'soft'
+                      : profile.headerBannerStyle === 'topo-map'
+                      ? 'waving3d'
+                      : 'waving'
+                  }&color=${theme.darkBg.replace('#','')}&height=200&section=header&text=${encodeURIComponent(
+                    profile.fullName || profile.username
+                  )}&fontSize=38&fontColor=${theme.primary.replace('#','')}&animation=twinkling`}
+                  alt="Capsule Render Header Banner"
+                  className="w-full max-w-full h-auto object-cover"
                 />
-              )}
+              </div>
 
               {/* Typing Animation Badge Preview */}
               <div className="text-center py-2">
@@ -202,8 +196,7 @@ export const MarkdownPreviewer: React.FC<MarkdownPreviewerProps> = ({
                 </span>
               </div>
 
-              {/* Section Mountain Divider */}
-              <div dangerouslySetInnerHTML={{ __html: generateMountainDividerSvg(profile.theme) }} />
+              <hr className="border-[#103b29] my-6" />
 
             {/* About Me */}
             <div className="space-y-4 text-sm leading-relaxed text-gray-300">
