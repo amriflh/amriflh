@@ -144,6 +144,6 @@ Menulis konten blog sesuai target keyword dalam strategi SEO properti, menyusun 
 
 <div align="center">
 
-<sub>⚡ Profile README generated with **Mountain Dark Green Aesthetic README Generator** | Powered by GitHub Actions & Gemini AI</sub>
+<sub>⚡ Profile README generated with **Mountain Dark Green Aesthetic README Generator**</sub>
 
 </div>

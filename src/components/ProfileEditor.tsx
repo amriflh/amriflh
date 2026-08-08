@@ -230,6 +230,58 @@ export const ProfileEditor: React.FC<ProfileEditorProps> = ({
               </div>
             </div>
 
+            {/* Style Header Banner Selector */}
+            <div className="bg-[#0c3d2a] p-4 rounded-xl border border-[#103b29]">
+              <h3 className="text-xs font-bold text-[#10b981] uppercase tracking-[0.2em] flex items-center gap-2 mb-1">
+                <span className="w-2 h-2 bg-[#10b981] rounded-full mr-1"></span>
+                Gaya Header Banner Profile
+              </h3>
+              <p className="text-xs text-gray-300 mb-3">
+                Pilih antara SVG Vector Banner kustom bertema gunung atau Dynamic Online Banner URL.
+              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <button
+                  type="button"
+                  onClick={() => updateField('headerBannerStyle', 'mountain-peak')}
+                  className={`p-3 rounded-xl text-left border transition-all ${
+                    profile.headerBannerStyle === 'mountain-peak' || profile.headerBannerStyle !== 'capsule-render'
+                      ? 'bg-[#082a1d] border-[#10b981] ring-2 ring-[#10b981]/30'
+                      : 'bg-[#04120c] border-[#103b29] hover:border-emerald-700'
+                  }`}
+                >
+                  <div className="text-xs font-bold text-white flex items-center justify-between mb-1">
+                    <span>🏔️ Mountain Peak Vector SVG</span>
+                    {(profile.headerBannerStyle === 'mountain-peak' || profile.headerBannerStyle !== 'capsule-render') && (
+                      <Check className="w-3.5 h-3.5 text-[#10b981]" />
+                    )}
+                  </div>
+                  <div className="text-[11px] text-gray-400">
+                    Desain kustom 3D gunung & aurora. Butuh folder <code className="text-[#34d399]">./assets/</code> di GitHub.
+                  </div>
+                </button>
+
+                <button
+                  type="button"
+                  onClick={() => updateField('headerBannerStyle', 'capsule-render')}
+                  className={`p-3 rounded-xl text-left border transition-all ${
+                    profile.headerBannerStyle === 'capsule-render'
+                      ? 'bg-[#082a1d] border-[#10b981] ring-2 ring-[#10b981]/30'
+                      : 'bg-[#04120c] border-[#103b29] hover:border-emerald-700'
+                  }`}
+                >
+                  <div className="text-xs font-bold text-white flex items-center justify-between mb-1">
+                    <span>🌊 Dynamic Capsule Render Banner</span>
+                    {profile.headerBannerStyle === 'capsule-render' && (
+                      <Check className="w-3.5 h-3.5 text-[#10b981]" />
+                    )}
+                  </div>
+                  <div className="text-[11px] text-gray-400">
+                    Banner online otomatis via Vercel API. Tampil langsung di GitHub tanpa upload file.
+                  </div>
+                </button>
+              </div>
+            </div>
+
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
                 <label className="block text-xs font-semibold text-gray-300 mb-1.5">

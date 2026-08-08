@@ -160,11 +160,23 @@ export const MarkdownPreviewer: React.FC<MarkdownPreviewerProps> = ({
 
             <div className="bg-[#04120c] p-4 sm:p-8 rounded-2xl border border-[#103b29] space-y-8 font-sans shadow-inner">
               
-              {/* Banner Header Mountain Vector SVG Preview */}
-              <div
-                className="w-full rounded-2xl overflow-hidden shadow-2xl border border-[#103b29]"
-                dangerouslySetInnerHTML={{ __html: generateMountainBannerSvg(profile) }}
-              />
+              {/* Banner Header Preview */}
+              {profile.headerBannerStyle === 'capsule-render' ? (
+                <div className="w-full rounded-2xl overflow-hidden shadow-2xl border border-[#103b29] flex justify-center bg-[#04120c]">
+                  <img
+                    src={`https://capsule-render.vercel.app/api?type=waving&color=${theme.darkBg.replace('#','')}&height=200&section=header&text=${encodeURIComponent(
+                      profile.fullName || profile.username
+                    )}&fontSize=38&fontColor=${theme.primary.replace('#','')}`}
+                    alt="Capsule Render Header Banner"
+                    className="w-full max-w-full h-auto object-cover"
+                  />
+                </div>
+              ) : (
+                <div
+                  className="w-full rounded-2xl overflow-hidden shadow-2xl border border-[#103b29]"
+                  dangerouslySetInnerHTML={{ __html: generateMountainBannerSvg(profile) }}
+                />
+              )}
 
               {/* Typing Animation Badge Preview */}
               <div className="text-center py-2">

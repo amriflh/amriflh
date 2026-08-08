@@ -177,7 +177,7 @@ export function generateGitHubReadme(profile: ProfileData): string {
   // 10. Footer Divider & GitHub Actions Note
   md += `---\n\n`;
   md += `<div align="center">\n\n`;
-  md += `<sub>⚡ Profile README generated with **Mountain Dark Green Aesthetic README Generator** | Powered by GitHub Actions & Gemini AI</sub>\n\n`;
+  md += `<sub>⚡ Profile README generated with **Mountain Dark Green Aesthetic README Generator**</sub>\n\n`;
   md += `</div>\n`;
 
   return md;
