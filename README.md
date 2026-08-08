@@ -2,11 +2,11 @@
 
 [![Header Banner](https://capsule-render.vercel.app/api?type=waving&color=04120C&height=200&section=header&text=Ahmad%20Amri%20Falah&fontSize=38&fontColor=10B981&animation=twinkling)](https://github.com/amriflh)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=10B981&center=true&vCenter=true&width=700&lines=Content%20Strategist%20%26%20Technical%20SEO%20Specialist;Scaling%20Organic%20Search%20Peak%20Rankings%20%F0%9F%8F%94%EF%B8%8F%F0%9F%93%88;Crafting%20Engaging%20Tech%20%26%20Outdoor%20Content%20%E2%9C%8D%EF%B8%8F%F0%9F%8C%B2;Automating%20SEO%20Workflows%20with%20Python%20%26%20AI%20%E2%9A%99%EF%B8%8F)](https://github.com/amriflh)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=10B981&center=true&vCenter=true&width=700&lines=Content%20Strategist%20%26%20Technical%20SEO%20Specialist;Scaling%20Organic%20Search%20Peak%20Rankings%20%F0%9F%8F%90%F0%9F%93%88;Crafting%20Engaging%20Tech%20%26%20Outdoor%20Content%20%E2%9C%8D%EF%B8%8F%F0%9F%8F%B2;Automating%20SEO%20Workflows%20with%20Python%20%26%20AI%20%E2%9A%99%EF%B8%8F)](https://github.com/amriflh)
 
 [![Location](https://img.shields.io/badge/Location-Jakarta%2C%20Indonesia%20%F0%9F%87%AE%F0%9F%87%A9%20%7C%20S1%20Ilmu%20Komunikasi%20Mercu%20Buana-061F16?style=for-the-badge&logo=google-maps&logoColor=10B981)](#)
 [![Peak Goal](https://img.shields.io/badge/Current_Peak-Meraih%20%231%20Google%20Maps%20%26%20Menghasilkan%20Konversi%20Organik%20Nyata%20%E2%9B%B0%EF%B8%8F%F0%9F%93%88-061F16?style=for-the-badge&logo=mountain&logoColor=34D399)](#)
-[![Daily Auto-Updated Profile](https://img.shields.io/badge/GitHub_Actions-Daily_Auto--Update-10B981?style=for-the-badge&logo=github-actions&logoColor=white)](#-github-actions-automation)
+[![Daily Auto-Updated Profile](https://img.shields.io/badge/GitHub_Actions-Daily_Auto--Update-10B981?style=for-the-badge&logo=github-actions&logoColor=white)](#)
 
 </div>
 
@@ -83,7 +83,7 @@ Menulis konten blog sesuai target keyword dalam strategi SEO properti, menyusun 
 ## 🌄 Dynamic Daily SEO & Mountain Quote
 
 > <!-- DAILY_QUOTE_START -->
-> *"SEO is not about gaming the system. It's about learning how to deliver the highest altitude value to the searcher, one peak at a time."*
+> *"SEO is not about gaming the system. It is about delivering high altitude value to the searcher, one peak at a time."*
 > 
 > 💡 **Today's SEO Mountain Tip**: Optimize for search intent before search volume. High altitude relevance always beats mass traffic noise.
 > <!-- DAILY_QUOTE_END -->
@@ -96,34 +96,34 @@ Menulis konten blog sesuai target keyword dalam strategi SEO properti, menyusun 
 <p align="left">
   <img src="https://img.shields.io/badge/Semrush-FF642D?style=for-the-badge&logo=semrush&logoColor=white" alt="Semrush" height="32" />
   <img src="https://img.shields.io/badge/Google_Search_Console-4285F4?style=for-the-badge&logo=google-search-console&logoColor=white" alt="Google Search Console" height="32" />
-  <img src="https://img.shields.io/badge/Google_My_Business-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Business Profile" height="32" />
-  <img src="https://img.shields.io/badge/Google_Ads-4285F4?style=for-the-badge&logo=google-ads&logoColor=white" alt="Google Keyword Planner" height="32" />
+  <img src="https://img.shields.io/badge/Google_Business_Profile-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Business Profile" height="32" />
+  <img src="https://img.shields.io/badge/Google_Keyword_Planner-4285F4?style=for-the-badge&logo=google-ads&logoColor=white" alt="Google Keyword Planner" height="32" />
   <img src="https://img.shields.io/badge/Ubersuggest-FF5722?style=for-the-badge&logo=ubiquiti&logoColor=white" alt="Ubersuggest" height="32" />
   <img src="https://img.shields.io/badge/PageSpeed_Insights-0F9D58?style=for-the-badge&logo=lighthouse&logoColor=white" alt="PageSpeed Insights" height="32" />
 </p>
 
 ### 💻 Technical SEO & Content Strategy
 <p align="left">
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="CMS Laravel" height="32" />
-  <img src="https://img.shields.io/badge/HTML5_CSS3-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 & CSS3" height="32" />
-  <img src="https://img.shields.io/badge/Schema.org-000000?style=for-the-badge&logo=json&logoColor=10B981" alt="Schema.org Markup" height="32" />
-  <img src="https://img.shields.io/badge/Landing_Pages-10B981?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Landing Page Builder" height="32" />
-  <img src="https://img.shields.io/badge/Meta_Ads-0467DF?style=for-the-badge&logo=meta&logoColor=white" alt="Meta Ads (FB/IG)" height="32" />
+  <img src="https://img.shields.io/badge/CMS_Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="CMS Laravel" height="32" />
+  <img src="https://img.shields.io/badge/HTML5_%26_CSS3-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 & CSS3" height="32" />
+  <img src="https://img.shields.io/badge/Schema.org_Markup-000000?style=for-the-badge&logo=json&logoColor=10B981" alt="Schema.org Markup" height="32" />
+  <img src="https://img.shields.io/badge/Landing_Page_Builder-10B981?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Landing Page Builder" height="32" />
+  <img src="https://img.shields.io/badge/Meta_Ads_(FB/IG)-0467DF?style=for-the-badge&logo=meta&logoColor=white" alt="Meta Ads (FB/IG)" height="32" />
 </p>
 
 ### 🏆 Sertifikasi Resmi
 <p align="left">
-  <img src="https://img.shields.io/badge/Semrush_Certified-FF642D?style=for-the-badge&logo=semrush&logoColor=white" alt="Semrush SEO Fundamentals (2024)" height="32" />
-  <img src="https://img.shields.io/badge/Google_My_Business-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google My Business Basics (2024)" height="32" />
-  <img src="https://img.shields.io/badge/MySkill_SEO-10B981?style=for-the-badge&logo=education&logoColor=white" alt="MySkill SEO Course (2024)" height="32" />
-  <img src="https://img.shields.io/badge/Impactful_Writer-34D399?style=for-the-badge&logo=medium&logoColor=black" alt="Impactful Writer Cert (2025)" height="32" />
+  <img src="https://img.shields.io/badge/Semrush_SEO_Fundamentals_(2024)-FF642D?style=for-the-badge&logo=semrush&logoColor=white" alt="Semrush SEO Fundamentals (2024)" height="32" />
+  <img src="https://img.shields.io/badge/Google_My_Business_Basics_(2024)-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google My Business Basics (2024)" height="32" />
+  <img src="https://img.shields.io/badge/MySkill_SEO_Course_(2024)-10B981?style=for-the-badge&logo=education&logoColor=white" alt="MySkill SEO Course (2024)" height="32" />
+  <img src="https://img.shields.io/badge/Impactful_Writer_Cert_(2025)-34D399?style=for-the-badge&logo=medium&logoColor=black" alt="Impactful Writer Cert (2025)" height="32" />
 </p>
 
 ## 📬 Connect & Collaborate | Link Media Sosial
 
 <p align="left">
   <a href="https://portofolio-seo-specialist.ahmad-amri-falah.workers.dev/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-10B981?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website Portfolio" height="36" />
+    <img src="https://img.shields.io/badge/Portfolio-10B981?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio Website" height="36" />
   </a>
   <a href="https://www.linkedin.com/in/ahmad-amri-falah-54a232291/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="36" />
@@ -135,10 +135,7 @@ Menulis konten blog sesuai target keyword dalam strategi SEO properti, menyusun 
     <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" height="36" />
   </a>
   <a href="mailto:falahamri93@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" height="36" />
-  </a>
-  <a href="https://github.com/amriflh" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" height="36" />
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Direct" height="36" />
   </a>
 </p>
 
