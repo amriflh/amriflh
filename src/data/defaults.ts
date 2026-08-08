@@ -67,13 +67,13 @@ export const DEFAULT_PROFILE_DATA: ProfileData = {
     '💡 Dampak Konversi Nyata: Mengutamakan hasil yang bermanfaat (prospek B2B, panggilan bisnis riil), bukan sekadar vanity metrics.'
   ],
   
-  theme: 'pine-forest',
+  theme: 'volcanic-ridge',
   headerBannerStyle: 'mountain-peak',
   
-  showGithubStats: true,
-  showStreakStats: true,
-  showTopLangs: true,
-  showSnakeAnimation: true,
+  showGithubStats: false,
+  showStreakStats: false,
+  showTopLangs: false,
+  showSnakeAnimation: false,
   showDailyQuoteWidget: true,
   showSeoMetrics: true,
   showHikingWidget: true,

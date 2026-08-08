@@ -3,11 +3,11 @@
 <!-- Mountain Peak Profile Header Banner -->
 ![Mountain Peak Header](./assets/mountain-banner.svg)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=10B981&center=true&vCenter=true&width=700&lines=Content%20Strategist%20%26%20Technical%20SEO%20Specialist;Scaling%20Organic%20Search%20Peak%20Rankings%20%F0%9F%8F%90%F0%9F%93%88;Crafting%20Engaging%20Tech%20%26%20Outdoor%20Content%20%E2%9C%8D%EF%B8%8F%F0%9F%8F%B2;Automating%20SEO%20Workflows%20with%20Python%20%26%20AI%20%E2%9A%99%EF%B8%8F)](https://github.com/amriflh)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=84CC16&center=true&vCenter=true&width=700&lines=Content%20Strategist%20%26%20Technical%20SEO%20Specialist;Scaling%20Organic%20Search%20Peak%20Rankings%20%F0%9F%8F%90%F0%9F%93%88;Crafting%20Engaging%20Tech%20%26%20Outdoor%20Content%20%E2%9C%8D%EF%B8%8F%F0%9F%8F%B2;Automating%20SEO%20Workflows%20with%20Python%20%26%20AI%20%E2%9A%99%EF%B8%8F)](https://github.com/amriflh)
 
-[![Location](https://img.shields.io/badge/Location-Jakarta%2C%20Indonesia%20%F0%9F%87%AE%F0%9F%87%A9-061F16?style=for-the-badge&logo=google-maps&logoColor=10B981)](#)
-[![Peak Goal](https://img.shields.io/badge/Current_Peak-Meraih%20%231%20Google%20Maps%20%26%20Menghasilkan%20Konversi%20Organik%20Nyata%20%E2%9B%B0%EF%B8%8F%F0%9F%93%88-061F16?style=for-the-badge&logo=mountain&logoColor=34D399)](#)
-[![Daily Auto-Updated Profile](https://img.shields.io/badge/GitHub_Actions-Daily_Auto--Update-10B981?style=for-the-badge&logo=github-actions&logoColor=white)](#)
+[![Location](https://img.shields.io/badge/Location-Jakarta%2C%20Indonesia%20%F0%9F%87%AE%F0%9F%87%A9-152912?style=for-the-badge&logo=google-maps&logoColor=84CC16)](#)
+[![Peak Goal](https://img.shields.io/badge/Current_Peak-Meraih%20%231%20Google%20Maps%20%26%20Menghasilkan%20Konversi%20Organik%20Nyata%20%E2%9B%B0%EF%B8%8F%F0%9F%93%88-152912?style=for-the-badge&logo=mountain&logoColor=F59E0B)](#)
+[![Daily Auto-Updated Profile](https://img.shields.io/badge/GitHub_Actions-Daily_Auto--Update-84CC16?style=for-the-badge&logo=github-actions&logoColor=white)](#)
 
 </div>
 
@@ -80,32 +80,6 @@ Menulis konten blog sesuai target keyword dalam strategi SEO properti, menyusun 
 [🌐 View Live Project](https://portofolio-seo-specialist.ahmad-amri-falah.workers.dev/)
 
 ---
-
-## 📈 Animated Contribution & Mountain Activity Stats
-
-<div align="center">
-
-### 🐍 GitHub Contribution Grid Snake Animation
-![Snake Animation](https://raw.githubusercontent.com/amriflh/amriflh/main/assets/github-user-contribution-grid-snake.svg)
-
-<table border="0">
-<tr>
-<td width="50%" valign="top">
-
-![amriflh's GitHub Stats](https://github-readme-stats.vercel.app/api?username=amriflh&show_icons=true&bg_color=04120C&title_color=10B981&text_color=9CA3AF&icon_color=34D399&border_color=061F16&hide_border=false)
-
-</td>
-<td width="50%" valign="top">
-
-![amriflh's GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=amriflh&background=04120C&stroke=061F16&sidenums=9CA3AF&currStreakNum=10B981&fire=34D399&currStreakLabel=34D399&border=061F16)
-
-</td>
-</tr>
-</table>
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=amriflh&layout=compact&bg_color=04120C&title_color=10B981&text_color=9CA3AF&border_color=061F16&hide_border=false)
-
-</div>
 
 ## 🌄 Dynamic Daily SEO & Mountain Quote
 
