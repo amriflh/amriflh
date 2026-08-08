@@ -68,7 +68,7 @@ export const DEFAULT_PROFILE_DATA: ProfileData = {
   ],
   
   theme: 'pine-forest',
-  headerBannerStyle: 'mountain-peak',
+  headerBannerStyle: 'capsule-render',
   
   showGithubStats: false,
   showStreakStats: false,

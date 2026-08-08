@@ -1,7 +1,6 @@
 <div align="center">
 
-<!-- Mountain Peak Profile Header Banner -->
-![Mountain Peak Header](./assets/mountain-banner.svg)
+[![Header Banner](https://capsule-render.vercel.app/api?type=waving&color=04120C&height=200&section=header&text=Ahmad%20Amri%20Falah&fontSize=38&fontColor=10B981&animation=twinkling)](https://github.com/amriflh)
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=10B981&center=true&vCenter=true&width=700&lines=Content%20Strategist%20%26%20Technical%20SEO%20Specialist;Scaling%20Organic%20Search%20Peak%20Rankings%20%F0%9F%8F%90%F0%9F%93%88;Crafting%20Engaging%20Tech%20%26%20Outdoor%20Content%20%E2%9C%8D%EF%B8%8F%F0%9F%8F%B2;Automating%20SEO%20Workflows%20with%20Python%20%26%20AI%20%E2%9A%99%EF%B8%8F)](https://github.com/amriflh)
 
@@ -11,7 +10,7 @@
 
 </div>
 
-![Mountain Ridge Divider](./assets/mountain-divider.svg)
+---
 
 ## 🌲 About Me | Tentang Saya
 

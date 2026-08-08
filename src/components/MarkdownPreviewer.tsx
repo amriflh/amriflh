@@ -129,31 +129,24 @@ export const MarkdownPreviewer: React.FC<MarkdownPreviewerProps> = ({
         {(activeView === 'preview' || activeView === 'split') && (
           <div className="space-y-4 max-w-4xl mx-auto">
             
-            {/* Guide Info Banner for GitHub SVG Assets */}
+            {/* Guide Info Banner */}
             <div className="bg-[#0c3d2a]/70 border border-[#103b29] p-3.5 rounded-xl flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs shadow-lg">
               <div className="flex items-start gap-2 text-gray-200">
                 <Sparkles className="w-4 h-4 text-[#10b981] shrink-0 mt-0.5" />
                 <div>
-                  <span className="font-bold text-[#10b981] block">💡 Menampilkan Banner Mountain & Divider di GitHub Profile</span>
+                  <span className="font-bold text-[#10b981] block">✅ Online Banner URL Mode Aktiv (Bebas Error Asset SVG)</span>
                   <span>
-                    Banner ini menggunakan SVG kustom (<code className="text-[#34d399]">./assets/mountain-banner.svg</code>). Download ZIP repository lalu upload folder <code className="text-[#34d399]">assets/</code> ke repository GitHub Anda (<code className="text-[#34d399]">github.com/{profile.username}/{profile.username}</code>) agar gambar muncul sempurna!
+                    Markdown ini menggunakan URL online langsung (<code className="text-[#34d399]">capsule-render</code> & <code className="text-[#34d399]">readme-typing-svg</code>). Banner & badge akan selalu tampil sempurna di GitHub Profile tanpa perlu mengunggah file SVG lokal!
                   </span>
                 </div>
               </div>
               <div className="flex items-center gap-2 shrink-0 w-full sm:w-auto justify-end">
                 <button
-                  onClick={() => downloadSingleSvg('banner')}
-                  className="px-2.5 py-1 bg-[#10b981]/20 hover:bg-[#10b981] hover:text-[#04120c] text-[#10b981] font-semibold rounded-lg border border-[#10b981]/40 transition-all text-[11px] flex items-center gap-1"
+                  onClick={onCopyReadme}
+                  className="px-3 py-1.5 bg-[#10b981] text-[#04120c] font-bold rounded-lg hover:bg-[#34d399] transition-all text-[11px] flex items-center gap-1 shadow"
                 >
-                  <Download className="w-3 h-3" />
-                  <span>Download SVG</span>
-                </button>
-                <button
-                  onClick={onDownloadZip}
-                  className="px-2.5 py-1 bg-[#10b981] text-[#04120c] font-bold rounded-lg hover:bg-[#34d399] transition-all text-[11px] flex items-center gap-1"
-                >
-                  <FolderTree className="w-3 h-3" />
-                  <span>Download ZIP</span>
+                  {isCopied ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
+                  <span>{isCopied ? 'Tersalin!' : 'Salin Markdown'}</span>
                 </button>
               </div>
             </div>
