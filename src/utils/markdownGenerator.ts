@@ -23,10 +23,15 @@ export function generateGitHubReadme(profile: ProfileData): string {
   // 1. Header Banner
   md += `<div align="center">\n\n`;
 
-  const capsuleBannerUrl = `https://capsule-render.vercel.app/api?type=waving&color=${hexBg}&height=200&section=header&text=${encodeURIComponent(
-    profile.fullName || profile.username
-  )}&fontSize=38&fontColor=${hexPrimary}&animation=twinkling`;
-  md += `[![Header Banner](${capsuleBannerUrl})](https://github.com/${profile.username})\n\n`;
+  if (profile.headerBannerStyle === 'capsule-render') {
+    const capsuleBannerUrl = `https://capsule-render.vercel.app/api?type=waving&color=${hexBg}&height=200&section=header&text=${encodeURIComponent(
+      profile.fullName || profile.username
+    )}&fontSize=38&fontColor=${hexPrimary}&animation=twinkling`;
+    md += `[![Header Banner](${capsuleBannerUrl})](https://github.com/${profile.username})\n\n`;
+  } else {
+    md += `<!-- Mountain Peak Profile Header Banner -->\n`;
+    md += `![Mountain Peak Header](./assets/mountain-banner.svg)\n\n`;
+  }
 
   md += `[![Typing SVG](${typingSvgUrl})](https://github.com/${profile.username})\n\n`;
 
@@ -42,7 +47,11 @@ export function generateGitHubReadme(profile: ProfileData): string {
   md += `</div>\n\n`;
 
   // 2. Section Divider
-  md += `---\n\n`;
+  if (profile.headerBannerStyle === 'capsule-render') {
+    md += `---\n\n`;
+  } else {
+    md += `![Mountain Ridge Divider](./assets/mountain-divider.svg)\n\n`;
+  }
 
   // 3. About Me Section
   md += `## 🌲 About Me | Tentang Saya\n\n`;
