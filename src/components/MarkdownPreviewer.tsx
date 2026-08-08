@@ -68,11 +68,24 @@ export const MarkdownPreviewer: React.FC<MarkdownPreviewerProps> = ({
     setTimeout(() => setFileCopied(false), 2000);
   };
 
+  const downloadSingleSvg = (type: 'banner' | 'divider') => {
+    const svgContent = type === 'banner' ? generateMountainBannerSvg(profile) : generateMountainDividerSvg(profile.theme);
+    const fileName = type === 'banner' ? 'mountain-banner.svg' : 'mountain-divider.svg';
+    const blob = new Blob([svgContent], { type: 'image/svg+xml;charset=utf-8' });
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(blob);
+    link.download = fileName;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(link.href);
+  };
+
   return (
     <div className="bg-[#061f16] border border-[#103b29] rounded-2xl p-4 sm:p-6 text-gray-200 shadow-2xl flex flex-col h-full">
       
       {/* Header Controls for Preview Box */}
-      <div className="flex items-center justify-between pb-3 border-b border-[#103b29] mb-4">
+      <div className="flex flex-wrap items-center justify-between pb-3 border-b border-[#103b29] mb-4 gap-2">
         <div className="flex items-center gap-2">
           <div className="w-3 h-3 rounded-full bg-[#10b981]"></div>
           <div className="w-3 h-3 rounded-full bg-amber-500/80"></div>
@@ -83,6 +96,22 @@ export const MarkdownPreviewer: React.FC<MarkdownPreviewerProps> = ({
         </div>
 
         <div className="flex items-center gap-2">
+          <button
+            onClick={() => downloadSingleSvg('banner')}
+            className="flex items-center gap-1.5 px-2.5 py-1 bg-[#0c3d2a] hover:bg-[#103b29] text-[#34d399] text-xs font-semibold rounded-lg border border-[#103b29] transition-all"
+            title="Download mountain-banner.svg"
+          >
+            <Download className="w-3.5 h-3.5 text-[#10b981]" />
+            <span className="hidden sm:inline">Download Banner SVG</span>
+          </button>
+          <button
+            onClick={onDownloadZip}
+            className="flex items-center gap-1.5 px-3 py-1 bg-[#10b981] hover:bg-[#34d399] text-[#04120c] text-xs font-bold rounded-lg transition-all shadow-md"
+            title="Download Repo ZIP with README & Assets"
+          >
+            <FolderTree className="w-3.5 h-3.5" />
+            <span>Download ZIP Repo</span>
+          </button>
           <button
             onClick={onCopyReadme}
             className="flex items-center gap-1.5 px-3 py-1 bg-[#0c3d2a] hover:bg-[#10b981] hover:text-[#04120c] text-[#10b981] text-xs font-semibold rounded-lg border border-[#103b29] transition-all"
@@ -98,45 +127,71 @@ export const MarkdownPreviewer: React.FC<MarkdownPreviewerProps> = ({
         
         {/* VIEW 1: Visual Rendered GitHub Profile */}
         {(activeView === 'preview' || activeView === 'split') && (
-          <div className="bg-[#04120c] p-4 sm:p-8 rounded-2xl border border-[#103b29] space-y-8 font-sans max-w-4xl mx-auto shadow-inner">
+          <div className="space-y-4 max-w-4xl mx-auto">
             
-            {/* Banner Header Capsule Render Preview */}
-            <div className="w-full rounded-2xl overflow-hidden shadow-2xl border border-[#103b29] flex justify-center bg-[#04120c]">
-              <img
-                src={`https://capsule-render.vercel.app/api?type=waving&color=${theme.darkBg.replace('#','')}&height=200&section=header&text=${encodeURIComponent(
-                  profile.fullName || profile.username
-                )}&fontSize=38&fontColor=${theme.primary.replace('#','')}&animation=twinkling`}
-                alt="Header Banner"
-                className="w-full max-w-full h-auto object-cover"
+            {/* Guide Info Banner for GitHub SVG Assets */}
+            <div className="bg-[#0c3d2a]/70 border border-[#103b29] p-3.5 rounded-xl flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs shadow-lg">
+              <div className="flex items-start gap-2 text-gray-200">
+                <Sparkles className="w-4 h-4 text-[#10b981] shrink-0 mt-0.5" />
+                <div>
+                  <span className="font-bold text-[#10b981] block">💡 Menampilkan Banner Mountain & Divider di GitHub Profile</span>
+                  <span>
+                    Banner ini menggunakan SVG kustom (<code className="text-[#34d399]">./assets/mountain-banner.svg</code>). Download ZIP repository lalu upload folder <code className="text-[#34d399]">assets/</code> ke repository GitHub Anda (<code className="text-[#34d399]">github.com/{profile.username}/{profile.username}</code>) agar gambar muncul sempurna!
+                  </span>
+                </div>
+              </div>
+              <div className="flex items-center gap-2 shrink-0 w-full sm:w-auto justify-end">
+                <button
+                  onClick={() => downloadSingleSvg('banner')}
+                  className="px-2.5 py-1 bg-[#10b981]/20 hover:bg-[#10b981] hover:text-[#04120c] text-[#10b981] font-semibold rounded-lg border border-[#10b981]/40 transition-all text-[11px] flex items-center gap-1"
+                >
+                  <Download className="w-3 h-3" />
+                  <span>Download SVG</span>
+                </button>
+                <button
+                  onClick={onDownloadZip}
+                  className="px-2.5 py-1 bg-[#10b981] text-[#04120c] font-bold rounded-lg hover:bg-[#34d399] transition-all text-[11px] flex items-center gap-1"
+                >
+                  <FolderTree className="w-3 h-3" />
+                  <span>Download ZIP</span>
+                </button>
+              </div>
+            </div>
+
+            <div className="bg-[#04120c] p-4 sm:p-8 rounded-2xl border border-[#103b29] space-y-8 font-sans shadow-inner">
+              
+              {/* Banner Header Mountain Vector SVG Preview */}
+              <div
+                className="w-full rounded-2xl overflow-hidden shadow-2xl border border-[#103b29]"
+                dangerouslySetInnerHTML={{ __html: generateMountainBannerSvg(profile) }}
               />
-            </div>
 
-            {/* Typing Animation Badge Preview */}
-            <div className="text-center py-2">
-              <img
-                src={`https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1000&color=${theme.primary.replace('#','')}&center=true&vCenter=true&width=650&lines=${encodeURIComponent(
-                  profile.title
-                )};${encodeURIComponent('Scaling Organic Search Peaks 🏔️')};${encodeURIComponent('Crafting Compelling Stories ✍️')}`}
-                alt="Typing SVG"
-                className="mx-auto max-w-full h-auto"
-              />
-            </div>
+              {/* Typing Animation Badge Preview */}
+              <div className="text-center py-2">
+                <img
+                  src={`https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1000&color=${theme.primary.replace('#','')}&center=true&vCenter=true&width=650&lines=${encodeURIComponent(
+                    profile.title
+                  )};${encodeURIComponent('Scaling Organic Search Peaks 🏔️')};${encodeURIComponent('Crafting Compelling Stories ✍️')}`}
+                  alt="Typing SVG"
+                  className="mx-auto max-w-full h-auto"
+                />
+              </div>
 
-            {/* Badges Bar */}
-            <div className="flex flex-wrap items-center justify-center gap-2">
-              <span className="px-3 py-1 bg-[#0c3d2a] text-[#10b981] border border-[#10b981]/30 text-xs font-bold rounded flex items-center gap-1">
-                📍 {profile.location}
-              </span>
-              <span className="px-3 py-1 bg-[#0c3d2a] text-[#10b981] border border-[#10b981]/30 text-xs font-bold rounded flex items-center gap-1">
-                🏔️ {profile.currentPeakGoal}
-              </span>
-              <span className="px-3 py-1 bg-[#0c3d2a] text-[#10b981] border border-[#10b981]/30 text-xs font-bold rounded flex items-center gap-1">
-                ⚡ GitHub Actions Daily Auto-Update
-              </span>
-            </div>
+              {/* Badges Bar */}
+              <div className="flex flex-wrap items-center justify-center gap-2">
+                <span className="px-3 py-1 bg-[#0c3d2a] text-[#10b981] border border-[#10b981]/30 text-xs font-bold rounded flex items-center gap-1">
+                  📍 {profile.location}
+                </span>
+                <span className="px-3 py-1 bg-[#0c3d2a] text-[#10b981] border border-[#10b981]/30 text-xs font-bold rounded flex items-center gap-1">
+                  🏔️ {profile.currentPeakGoal}
+                </span>
+                <span className="px-3 py-1 bg-[#0c3d2a] text-[#10b981] border border-[#10b981]/30 text-xs font-bold rounded flex items-center gap-1">
+                  ⚡ GitHub Actions Daily Auto-Update
+                </span>
+              </div>
 
-            {/* Section Divider */}
-            <hr className="border-[#103b29] my-4" />
+              {/* Section Mountain Divider */}
+              <div dangerouslySetInnerHTML={{ __html: generateMountainDividerSvg(profile.theme) }} />
 
             {/* About Me */}
             <div className="space-y-4 text-sm leading-relaxed text-gray-300">
@@ -312,8 +367,8 @@ export const MarkdownPreviewer: React.FC<MarkdownPreviewerProps> = ({
                   ))}
               </div>
             </div>
-
           </div>
+        </div>
         )}
 
         {/* VIEW 2: Raw Markdown Code */}

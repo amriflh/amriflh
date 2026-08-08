@@ -56,9 +56,9 @@ export const DEFAULT_PROFILE_DATA: ProfileData = {
   fullName: 'Ahmad Amri Falah',
   title: 'Content Strategist & Technical SEO Specialist',
   mountainTagline: 'Strategi Konten & Technical SEO Terukur Menuju Puncak Trafik & Konversi 🏔️📈',
-  location: 'Jakarta, Indonesia 🇮🇩 | S1 Ilmu Komunikasi Mercu Buana',
+  location: 'Jakarta, Indonesia 🇮🇩',
   currentPeakGoal: 'Meraih #1 Google Maps & Menghasilkan Konversi Organik Nyata ⛰️📈',
-  bioParagraph1: 'Halo, saya Ahmad Amri Falah 👋! Content Strategist & Technical SEO Specialist lulusan S1 Ilmu Komunikasi, Universitas Mercu Buana. Saya berpengalaman mengubah situasi yang membutuhkan keteraturan dan hasil terukur menjadi strategi konten yang benar-benar mendatangkan trafik dan konversi nyata.',
+  bioParagraph1: 'Halo, saya Ahmad Amri Falah 👋! Content Strategist & Technical SEO Specialist. Saya berpengalaman mengubah situasi yang membutuhkan keteraturan dan hasil terukur menjadi strategi konten yang benar-benar mendatangkan trafik dan konversi nyata.',
   bioParagraph2: 'Fokus utama saya mencakup SEO Lokal & Google Business Profile, riset kata kunci (SEMrush, Google Keyword Planner, Ubersuggest), Content Writing & Strategy untuk AI Overview (SGE) Google, Technical SEO (optimasi skema artikel & HTML/CSS manual di CMS Laravel), serta Landing Page & Meta Ads berkonversi tinggi.',
   valuePoints: [
     '🎯 Teliti & Terorganisir: Menyukai rencana yang jelas, kalender konten berbasis data, dan konsisten menepati komitmen.',

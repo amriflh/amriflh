@@ -66,7 +66,7 @@ export interface ProfileData {
   
   // Customization
   theme: ThemeId;
-  headerBannerStyle: 'mountain-peak' | 'pine-ridge' | 'emerald-fog' | 'topo-map';
+  headerBannerStyle: 'mountain-peak' | 'pine-ridge' | 'emerald-fog' | 'topo-map' | 'capsule-render';
   
   // Stats & Widgets
   showGithubStats: boolean;
