@@ -1,0 +1,42 @@
+name: Update Daily Mountain SEO Quote
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-quote:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch & Replace Daily Quote
+        run: |
+          node -e '
+          const fs = require("fs");
+          const quotes = [
+            "\"SEO is not about gaming the system. It is about delivering high altitude value to the searcher, one peak at a time.\"\n\n💡 **Today's SEO Tip**: Prioritize search intent over raw keyword volume. Relevance always conquers the summit.",
+            "\"Writing is the compass; SEO is the trail map. Together, they lead your audience straight to the peak.\"\n\n💡 **Today's Writing Tip**: Clear and structured headings (H1, H2, H3) guide readers like cairns on a mountain trail.",
+            "\"Consistent effort builds organic authority, just as steady steps conquer 3,000+ meter summits.\"\n\n💡 **Today's SEO Tip**: Audit internal links regularly to ensure search crawlers can easily reach your top content.",
+            "\"Great content is built for humans first, search engines second. Never sacrifice reader trust for keyword density.\"\n\n💡 **Today's Content Tip**: Use engaging storytelling and actionable takeaways to keep dwell time high."
+          ];
+          const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+          let readme = fs.readFileSync("README.md", "utf8");
+          const regex = /<!-- DAILY_QUOTE_START -->[\s\S]*?<!-- DAILY_QUOTE_END -->/;
+          const replacement = "<!-- DAILY_QUOTE_START -->\n> " + randomQuote.replace(/\n/g, "\n> ") + "\n> <!-- DAILY_QUOTE_END -->";
+          readme = readme.replace(regex, replacement);
+          fs.writeFileSync("README.md", readme);
+          '
+
+      - name: Commit & Push Quote Update
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "docs: update daily SEO mountain quote"
+          file_pattern: "README.md"
