@@ -44,7 +44,7 @@ Fokus utama saya mencakup SEO Lokal & Google Business Profile, riset kata kunci 
 
 | Metric | Value | Impact & Focus Area |
 | :--- | :---: | :--- |
-| **Alatan Asasta B2B Leads** | `14 Lead & +722%` | Prospek B2B & unduhan regulasi dari 18 ke 148 |
+| **Alatan Asasta B2B Leads** | `14 Lead & 50+ Ebook Downloads & 100+ Downloads` | Prospek lead magnet B2B,B2G & unduhan regulasi dan ebook |
 | **Laundry Express Mamamu** | `#1 Google Maps` | 254 panggilan bisnis per bulan dari GBP |
 | **Toko Kue A Tiga** | `Hal. 1 Google` | Tembus Halaman 1 Google untuk 3 kata kunci dalam 2 bulan |
 | **Sertifikasi SEO & Writing** | `4 Certification` | Semrush, Google Skill, MySkill & Impactful Writer |
@@ -54,7 +54,7 @@ Fokus utama saya mencakup SEO Lokal & Google Business Profile, riset kata kunci 
 ### 🏢 Alatan Asasta Indonesia
 *Category: `B2B Technical SEO & Content Strategy`* | **Impact:** `14 + Prospek B2B/Gov, 50+ Ebook Downloads & 100+ Downloads`
 
-Merancang strategi konten TOFU/MOFU/BOFU berbasis data CSO & webinar. Menghasilkan 14 prospek organik B2B/pemerintahan, menaikkan unduhan regulasi dari 18 ke 148, menjaga CTR GSC di angka 2%, serta menulis kode HTML/CSS manual pada CMS Laravel untuk optimasi skema artikel & PageSpeed Insights.
+Merancang strategi konten TOFU/MOFU/BOFU berbasis data CSO & webinar. Menghasilkan 14 prospek organik B2B/pemerintahan, menaikkan unduhan regulasi dari 18 ke 148, mendapatkan lead magnet sebanyak 58 dari ebook B2B dan B2G, menjaga CTR GSC di angka 2%, serta menulis kode HTML/CSS manual pada CMS Laravel untuk optimasi skema artikel & PageSpeed Insights.
 
 **Tech & Tools:** `CMS Laravel` • `Technical SEO` • `SEMrush` • `Schema Markup` • `HTML/CSS` • `Lead Magnet`
 
