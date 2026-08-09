@@ -11,7 +11,21 @@
 
 </div>
 
-![Mountain Ridge Divider](./assets/mountain-divider.svg)
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 60" width="100%" height="auto">
+  <defs>
+    <linearGradient id="divSunlit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399"></stop>
+      <stop offset="100%" stop-color="#84CC16"></stop>
+    </linearGradient>
+    <linearGradient id="divShadow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c3d2a"></stop>
+      <stop offset="100%" stop-color="#04120c"></stop>
+    </linearGradient>
+  </defs>
+  <path d="M 0,60 L 0,40 L 150,15 L 300,45 L 480,10 L 650,50 L 820,18 L 1000,48 L 1200,20 L 1200,60 Z" fill="url(#divSunlit)" opacity="0.4"></path>
+  <path d="M 0,60 L 0,48 L 200,25 L 380,52 L 580,20 L 780,55 L 960,22 L 1120,45 L 1200,30 L 1200,60 Z" fill="url(#divSunlit)" opacity="0.8"></path>
+  <path d="M 0,60 L 0,55 L 250,35 L 450,58 L 680,32 L 880,58 L 1080,38 L 1200,50 L 1200,60 Z" fill="url(#divShadow)"></path>
+</svg>
 
 ## 🌲 About Me | Tentang Saya
 
