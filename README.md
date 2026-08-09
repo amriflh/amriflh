@@ -31,7 +31,7 @@
 
 Halo, saya Ahmad Amri Falah 👋! Content Strategist &  SEO Specialist. Saya berpengalaman mengubah situasi yang membutuhkan keteraturan dan hasil terukur menjadi strategi konten yang benar-benar mendatangkan trafik dan konversi nyata.
 
-Fokus utama saya mencakup SEO Lokal & Google Business Profile, riset kata kunci (SEMrush, Google Keyword Planner, Ubersuggest), Content Writing & Strategy untuk AI Overview (SGE) Google, Technical SEO (optimasi skema artikel & HTML/CSS manual di CMS Laravel), serta Landing Page & Meta Ads berkonversi tinggi.
+Fokus utama saya mencakup SEO Lokal & Google Business Profile, riset kata kunci (SEMrush, Google Keyword Planner, Ubersuggest), Content Writing & Strategy untuk AI Overview (SGE) Google, Technical SEO (optimasi skema artikel & HTML/CSS manual di CMS Laravel), Membangun link building, serta Landing Page & Meta Ads berkonversi tinggi.
 
 ### 🎯 Core Capabilities & Value Proposition
 
@@ -56,7 +56,7 @@ Fokus utama saya mencakup SEO Lokal & Google Business Profile, riset kata kunci 
 
 Merancang strategi konten TOFU/MOFU/BOFU berbasis data CSO & webinar. Menghasilkan 14 prospek organik B2B/pemerintahan, menaikkan unduhan regulasi dari 18 ke 148, mendapatkan lead magnet sebanyak 58 dari ebook B2B dan B2G, menjaga CTR GSC di angka 2%, serta menulis kode HTML/CSS manual pada CMS Laravel untuk optimasi skema artikel & PageSpeed Insights.
 
-**Tech & Tools:** `CMS Laravel` • `Technical SEO` • `SEMrush` • `Schema Markup` • `HTML/CSS` • `Lead Magnet`
+**Tech & Tools:** `CMS Laravel` • `Technical SEO` • `SEMrush` • `Schema Markup` • `HTML/CSS` • `Lead Magnet`• `Backlink`
 
 [🌐 View Live Project](https://portofolio-seo-specialist.ahmad-amri-falah.workers.dev/)
 
