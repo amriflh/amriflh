@@ -3,7 +3,7 @@
 <!-- Mountain Peak Profile Header Banner -->
 ![Mountain Peak Header](./assets/mountain-banner.svg)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=84CC16&center=true&vCenter=true&width=700&lines=Content%20Strategist%20%26%20Technical%20SEO%20Specialist;Scaling%20Organic%20Search%20Peak%20Rankings%20%F0%9F%8F%90%F0%9F%93%88;Crafting%20Engaging%20Tech%20%26%20Outdoor%20Content%20%E2%9C%8D%EF%B8%8F%F0%9F%8F%B2;Automating%20SEO%20Workflows%20with%20Python%20%26%20AI%20%E2%9A%99%EF%B8%8F)](https://github.com/amriflh)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=84CC16&center=true&vCenter=true&width=700&lines=Content%20Strategist%20%26%20SEO%20Specialist;Scaling%20Organic%20Search%20Peak%20Rankings%20%F0%9F%8F%90%F0%9F%93%88;Crafting%20Engaging%20Tech%20%26%20Outdoor%20Content%20%E2%9C%8D%EF%B8%8F%F0%9F%8F%B2;Automating%20SEO%20Workflows%20with%20Python%20%26%20AI%20%E2%9A%99%EF%B8%8F)](https://github.com/amriflh)
 
 [![Location](https://img.shields.io/badge/Location-Jakarta%2C%20Indonesia%20%F0%9F%87%AE%F0%9F%87%A9-152912?style=for-the-badge&logo=google-maps&logoColor=84CC16)](#)
 [![Peak Goal](https://img.shields.io/badge/Current_Peak-Meraih%20%231%20Google%20Maps%20%26%20Menghasilkan%20Konversi%20Organik%20Nyata%20%E2%9B%B0%EF%B8%8F%F0%9F%93%88-152912?style=for-the-badge&logo=mountain&logoColor=F59E0B)](#)
@@ -29,7 +29,7 @@
 
 ## 🌲 About Me | Tentang Saya
 
-Halo, saya Ahmad Amri Falah 👋! Content Strategist & Technical SEO Specialist. Saya berpengalaman mengubah situasi yang membutuhkan keteraturan dan hasil terukur menjadi strategi konten yang benar-benar mendatangkan trafik dan konversi nyata.
+Halo, saya Ahmad Amri Falah 👋! Content Strategist &  SEO Specialist. Saya berpengalaman mengubah situasi yang membutuhkan keteraturan dan hasil terukur menjadi strategi konten yang benar-benar mendatangkan trafik dan konversi nyata.
 
 Fokus utama saya mencakup SEO Lokal & Google Business Profile, riset kata kunci (SEMrush, Google Keyword Planner, Ubersuggest), Content Writing & Strategy untuk AI Overview (SGE) Google, Technical SEO (optimasi skema artikel & HTML/CSS manual di CMS Laravel), serta Landing Page & Meta Ads berkonversi tinggi.
 
@@ -52,9 +52,9 @@ Fokus utama saya mencakup SEO Lokal & Google Business Profile, riset kata kunci 
 ## 🚀 Featured Case Studies & Projects | Proyek Unggulan
 
 ### 🏢 Alatan Asasta Indonesia
-*Category: `B2B Technical SEO & Content Strategy`* | **Impact:** `14 Prospek B2B/Gov & +722% Downloads`
+*Category: `B2B Technical SEO & Content Strategy`* | **Impact:** `14 + Prospek B2B/Gov, 50+ Ebook Downloads & 100+ Downloads`
 
-Merancang strategi konten TOFU/MOFU/BOFU berbasis data CSO & webinar. Menghasilkan 14 prospek organik B2B/pemerintahan, menaikkan unduhan regulasi dari 18 ke 148 (+722%), menjaga CTR GSC di angka 2%, serta menulis kode HTML/CSS manual pada CMS Laravel untuk optimasi skema artikel & PageSpeed Insights.
+Merancang strategi konten TOFU/MOFU/BOFU berbasis data CSO & webinar. Menghasilkan 14 prospek organik B2B/pemerintahan, menaikkan unduhan regulasi dari 18 ke 148, menjaga CTR GSC di angka 2%, serta menulis kode HTML/CSS manual pada CMS Laravel untuk optimasi skema artikel & PageSpeed Insights.
 
 **Tech & Tools:** `CMS Laravel` • `Technical SEO` • `SEMrush` • `Schema Markup` • `HTML/CSS` • `Lead Magnet`
 
